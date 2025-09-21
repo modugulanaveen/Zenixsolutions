@@ -1,0 +1,126 @@
+.contact-page {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.contact-page h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #111;
+}
+
+/* Two-column layout */
+.contact-content {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+/* Left Side: Contact Info */
+.contact-info {
+  flex: 1;
+  background: #f9f9f9;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+}
+
+.contact-info p {
+  margin: 15px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.contact-link {
+  color: #0077ff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.icon {
+  margin-right: 8px;
+  color: #0077ff;
+  vertical-align: middle;
+}
+
+.socials {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.social-link {
+  font-size: 26px;
+  color: #555;
+  transition: color 0.3s;
+}
+
+.social-link:hover {
+  color: #0077ff;
+}
+
+.help-text {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Right Side: Contact Form */
+.contact-form {
+  flex: 1;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #0077ff;
+}
+
+.contact-form button {
+  background-color: #0077ff;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Mobile Responsive */
+@media (max-width: 900px) {
+  .contact-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
